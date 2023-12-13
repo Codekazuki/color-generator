@@ -2,7 +2,7 @@ const hex = document.querySelector(".color");
 const button = document.querySelector(".generate");
 
 const generateColor = () => {
-  let generatedColor = Math.random().toString(16).substring(2, 8);
+  let generateColor = Math.random().toString(16).substring(2, 8);
   document.body.style.backgroundColor = "#" + generateColor;
   hex.innerHTML = "#" + generateColor;
 };

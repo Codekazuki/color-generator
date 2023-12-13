@@ -37,9 +37,9 @@ img {
 }
 .color-container {
   width: 50%;
-  background-color: var(--dark-grey);
+  background-color: var(--grey);
   height: 50%;
-  color: white;
+  color: var(--black);
   border-radius: 4px;
   margin: auto;
 }
@@ -55,6 +55,10 @@ img {
   background-color: var(--light-blue);
   outline: none;
   border: none;
-  padding: 4px 8px;
+  padding: 8px 24px;
   border-radius: 4px;
+}
+.generate:hover {
+  background-color: var(--white);
+  color: var(--dark-grey);
 }
