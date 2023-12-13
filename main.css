@@ -30,5 +30,31 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
-  color: rebeccapurple;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+.color-container {
+  width: 50%;
+  background-color: var(--dark-grey);
+  height: 50%;
+  color: white;
+  border-radius: 4px;
+  margin: auto;
+}
+.color-container > * {
+  margin-bottom: 4rem;
+}
+.color {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.generate {
+  color: white;
+  background-color: var(--light-blue);
+  outline: none;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
